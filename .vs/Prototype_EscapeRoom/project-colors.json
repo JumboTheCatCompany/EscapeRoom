@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1a1f3365-a9e7-d52e-16e3-538c95bef5d7": {
+      "ProjectGuid": "1a1f3365-a9e7-d52e-16e3-538c95bef5d7",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 0
+    },
+    "f390a24f-6b11-792d-717b-61052f7c396c": {
+      "ProjectGuid": "f390a24f-6b11-792d-717b-61052f7c396c",
+      "DisplayName": "UnityEditor.UI",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

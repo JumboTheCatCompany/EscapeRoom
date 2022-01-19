@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec4d1b31452b1f45ba3ed256c6977e2, type: 3}
+  m_Name: Area1
+  m_EditorClassIdentifier: 
+  description: "You are in a dark room. \nThere is this strange metallic smell."
+  areaName: Area1
+  examineDescription: You are in the middle of a huge room. You can barely distinguish
+    a wet poodle of something. Is it blood? Yes, it's a poodle of blood.
+  objectsInArea:
+  - {fileID: 11400000, guid: 07bbed3d3d487624789dc96416afc369, type: 2}
+  - {fileID: 11400000, guid: 875fe5ba87792b3479725b9bc6450714, type: 2}
+  - {fileID: 11400000, guid: 344233f8d8bb7ed499cd59bb2b2ad6b2, type: 2}
+  itemsInArea: []
+  exits:
+  - areaKey: north
+    valueArea: {fileID: 11400000, guid: 7baa4ed7ef44d29439287e33ac2e45c6, type: 2}
+  - areaKey: northeast
+    valueArea: {fileID: 11400000, guid: d9f0099e7494eb541bb31fd17a005a83, type: 2}
+  - areaKey: northwest
+    valueArea: {fileID: 11400000, guid: c73c3c6d39a3d6547bdda0c001157c47, type: 2}
+  - areaKey: east
+    valueArea: {fileID: 11400000, guid: 4dabee19a77ad754a95aac12d2b95b10, type: 2}
+  - areaKey: west
+    valueArea: {fileID: 11400000, guid: 5034d7ffc40ed6a4889941b63e38ed9c, type: 2}
+  - areaKey: south
+    valueArea: {fileID: 11400000, guid: c639230fdc2eff34981b17d88d1c3a77, type: 2}
+  - areaKey: southeast
+    valueArea: {fileID: 11400000, guid: 1a155f590f5b0db4187bf80a36c9746a, type: 2}
+  - areaKey: southwest
+    valueArea: {fileID: 11400000, guid: 2b8b35849e1994b43af1de3927019260, type: 2}

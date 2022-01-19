@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec4d1b31452b1f45ba3ed256c6977e2, type: 3}
+  m_Name: Area5
+  m_EditorClassIdentifier: 
+  description: Dark, dark, dark. You're eyes are hurting trying to see anything here.
+  areaName: Area5
+  examineDescription: Nothing special on the floor, but wait - is there something
+    on the wall? You need more light.
+  objectsInArea:
+  - {fileID: 11400000, guid: 2e31482478784674f8ad299753bf093a, type: 2}
+  itemsInArea:
+  - {fileID: 11400000, guid: c0b08c070c5f2c94a9186686e5fab757, type: 2}
+  exits:
+  - areaKey: north
+    valueArea: {fileID: 11400000, guid: d9f0099e7494eb541bb31fd17a005a83, type: 2}
+  - areaKey: northwest
+    valueArea: {fileID: 11400000, guid: 7baa4ed7ef44d29439287e33ac2e45c6, type: 2}
+  - areaKey: west
+    valueArea: {fileID: 11400000, guid: d5fd04e95ad3b7b4197e7945b3ee34af, type: 2}
+  - areaKey: southwest
+    valueArea: {fileID: 11400000, guid: c639230fdc2eff34981b17d88d1c3a77, type: 2}
+  - areaKey: south
+    valueArea: {fileID: 11400000, guid: 1a155f590f5b0db4187bf80a36c9746a, type: 2}
